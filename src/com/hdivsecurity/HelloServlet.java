@@ -29,15 +29,6 @@ public class HelloServlet extends HttpServlet {
 		System.out.println("Date:" + dateFormat.format(date));
 		writer.write("data: " + dateFormat.format(date) + "\n\n");
 		writer.flush();
-
-		try {
-			System.out.println("Waiting 400ms...");
-			Thread.sleep(400);
-		}
-		catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
 		writer.close();
 	}
 
