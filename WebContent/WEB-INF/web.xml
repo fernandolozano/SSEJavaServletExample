@@ -7,7 +7,7 @@
   <servlet>
     <display-name>HelloServlet</display-name>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>com.hdivsecurity.HelloServlet</servlet-class>
+    <servlet-class>com.fernandolozanopajaron.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
